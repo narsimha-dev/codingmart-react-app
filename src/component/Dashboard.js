@@ -10,9 +10,9 @@ import { sideItems } from './global/localStore';
 
  const Dashboard=(props)=>{
    let history=useHistory();
-  console.log("Dashboasrd: ", props)
+  // console.log("Dashboasrd: ", props)
   const itemClick = (item) => {
-    console.log("Icon click action is: ", item);
+    // console.log("Icon click action is: ", item);
     // return <Router>
     //   <Link to={item} />
     // </Router>
